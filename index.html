@@ -10,10 +10,13 @@
 <div id="content">
   <h1> Get GitHub private email address</h1>
   <input type="text" placeholder="GitHub username" id="username" autofocus>
-  <span id="email"></span>
+  <div id="post">
+    <span id="email"></span>
+    <button>Copy</button>
+  </div>
+
   <br><br><br><br><br>
-  <p>If you're intending to use this email for Git, go to <a href="https://github.com/settings/emails" target="_blank">GitHub email settings</a> and check <b>Keep my email address private.</b></p> 
-  <p>May not work for accounts created before 2018.</p>
+  <p id="notice">If you want to use this email for Git, go to <a href="https://github.com/settings/emails" target="_blank">GitHub email settings</a> and enable <b>Keep my email address private.</b></p> 
 </div>
 
 <script src="main.js">
